@@ -1,15 +1,15 @@
 import React from 'react'
 import Footer from './Footer';
-import Header from './Header';
+
 
  function Contact() {
     return (
         <>
-            <Header/>
+           
            
 
            <main> 
-            <div className='Container'>
+     <div className='Container'>
 
            <form className='w-50 offset-3'>
            <h1 className='text-center'>Conatct page</h1>
@@ -38,7 +38,7 @@ import Header from './Header';
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
         </form>
-        </div>
+ </div>
            </main>
         <Footer/>
         </>
